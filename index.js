@@ -2,8 +2,8 @@ const express = require("express");
 const dotenv = require("dotenv");
 const path = require("path");
 const app = express();
-const db = require("./configs/db");
-const router = require("./routes");
+const db = require("./src/configs/db");
+const router = require("./src/routes");
 const methodOverride = require("method-override");
 const cors = require("cors");
 
